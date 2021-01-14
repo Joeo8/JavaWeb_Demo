@@ -1,0 +1,17 @@
+一.了解需求
+    实现远程部门管理功能
+    1.注册部门
+    2.查询部门
+    3.删除部门
+    4.更新部门
+二.了解开发任务设计表文件  ----通过Demo
+        create table dept(
+                d_id   int  primary key auto_increment,
+                d_name  varchar(20),
+                d_loc  varchar(20)
+                );
+三. 准备实体类   --- com.joeo8.entity.dept
+
+四. 准备工具类    ---com.joeo8.util.jdbcutil
+
+五.  第三方jar包
